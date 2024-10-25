@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">Pravalika Marupaka</h1>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2 class="section__title">About Me</h2>
+        <img src="https://res.cloudinary.com/doqntawgn/image/upload/v1728864685/isp1ynirqf9a9vtvaihr.jpg" alt="Your Image" class="about__image">
+        <p class="about__bio">I'm a full stack developer with a passion for creating interactive web applications. I enjoy learning new technologies and constantly improving my skills.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+            <li class="skills__item">HTML & CSS</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">Node.js</li>
+            <li class="skills__item">Python</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__container">
+            <div class="projects__item">
+                <h3 class="projects__title">Project 1</h3>
+                <p class="projects__description">A brief description of Project 1.</p>
+                <img src="project1-image.jpg" alt="Project 1" class="projects__image">
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Project 2</h3>
+                <p class="projects__description">A brief description of Project 2.</p>
+                <img src="project2-image.jpg" alt="Project 2" class="projects__image">
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Project 3</h3>
+                <p class="projects__description">A brief description of Project 3.</p>
+                <img src="project3-image.jpg" alt="Project 3" class="projects__image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume">
+        <h2 class="section__title">Resume</h2>
+        <p>You can download my resume <a href="your-resume.pdf" class="resume__link">here</a>.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2 class="section__title">Contact Me</h2>
+        <form id="contactForm" class="contact__form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__text">© 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
